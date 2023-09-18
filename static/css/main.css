@@ -22,12 +22,12 @@
 }
 
 .topnav a.active {
-  background-color: #04AA6D;
-  color: white;
+  background-color: #EED787;
+  color: grey;
 }
 
 .hero-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/aayush-gupta_Lisbon_Tram.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url("../images/aayush-gupta_Lisbon_Tram.jpg");
   height: 150%;
   background-position: center;
   background-repeat: no-repeat;
@@ -43,5 +43,106 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  color: #B3CEF3;
+}
+
+.w3-row-padding img {margin-bottom: 12px}
+/* Set the width of the sidebar to 120px */
+.w3-sidebar {width: 120px;background: #222;}
+/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+.w3-padding-16{padding-top:16px!important;padding-bottom:16px!important}
+.w3-wide{letter-spacing:4px}
+
+.w3-white,.w3-hover-white:hover{color:#000!important;background-color:#fff!important}
+.w3-dark-grey,.w3-hover-dark-grey:hover,.w3-dark-gray,.w3-hover-dark-gray:hover{color:#fff!important;background-color:#616161!important}
+.w3-text-light-grey,.w3-hover-text-light-grey:hover,.w3-text-light-gray,.w3-hover-text-light-gray:hover{color:#f1f1f1!important}
+
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+}
+
+.pagination a.active {
+  background-color: dodgerblue;
   color: white;
+}
+
+.container {
+  padding: 64px;
+  height: 80%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column-bio-text {
+  float: left;
+  width: 66.66666%;
+  padding: 20px;
+  background-color: lightgrey;
+  position: relative;
+}
+
+.column-bio-pic{
+  float: left;
+  width: 33.33333%;
+  padding: 20px;
+  position: relative;
+  top: -500px;
+  left: 500px;
+  /* background-color: white;
+  width: 500px; */
+}
+
+.column-66 {
+  float: left;
+  width: 66.66666%;
+  padding: 20px;
+}
+
+.column-33 {
+  float: left;
+  width: 33.33333%;
+  padding: 20px;
+}
+
+.large-font {
+  font-size: 48px;
+}
+
+.xlarge-font {
+  font-size: 64px
+}
+
+.button {
+  border: none;
+  color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  /* background-color: #04AA6D; */
+  background-color: #EDAA75;
+}
+
+img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+
+@media screen and (max-width: 1000px) {
+  .column-66,
+  .column-33 {
+    width: 100%;
+    text-align: center;
+  }
+  img {
+    margin: auto;
+  }
 }

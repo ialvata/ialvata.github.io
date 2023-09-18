@@ -92,6 +92,6 @@ p {
 }
 
 .topnav a.active {
-  background-color: #04AA6D;
-  color: white;
+  background-color: #EED787;
+  color: grey;
 }
