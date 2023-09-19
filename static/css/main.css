@@ -69,18 +69,25 @@
 .w3-dark-grey,.w3-hover-dark-grey:hover,.w3-dark-gray,.w3-hover-dark-gray:hover{color:#fff!important;background-color:#EDAA75!important}
 .w3-text-light-grey,.w3-hover-text-light-grey:hover,.w3-text-light-gray,.w3-hover-text-light-gray:hover{color:#f1f1f1!important}
 
-.pagination a {
-  color: black;
-  float: left;
-  padding: 8px 16px;
-  text-decoration: none;
-  transition: background-color .3s;
+.grid-container {
+  display: grid;
+  grid-template-columns: 150px 200px 150px 200px;
+  gap: 10px;
+  background-color: #4d7dc0;
+  padding: 10px;
+  align-content: center;
+  justify-content: center;
+  position: absolute; 
+  width: 90%;
 }
 
-.pagination a.active {
-  background-color: dodgerblue;
-  color: white;
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
 }
+
 
 .container {
   padding: 64px;
@@ -122,7 +129,7 @@
   float: left;
   width: 66.66666%;
   padding: 20px;
-  background-color: #b6d0f5;
+  background-color: lightgrey;
 }
 
 .large-font {
@@ -162,19 +169,19 @@ img {
 
 
 .href:link {
-  color: #e0cd88;
+  color: #5693e9;
   background-color: transparent;
   text-decoration: none;
 }
 
 .href:visited {
-  color: pink;
+  color: #e6bf30;
   background-color: transparent;
   text-decoration: none;
 }
 
 .href:hover {
-  color: #EDAA75;
+  color: #e99351;
   background-color: transparent;
   text-decoration: none;
 }
