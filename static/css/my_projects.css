@@ -6,7 +6,7 @@ html {
 }
 
 body {
-    background-image:linear-gradient(to bottom right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/magda_b_Ocean.jpg");
+    background-image:linear-gradient(to bottom right, rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url("../images/magda_b_Ocean.jpg");
     height: 100%;
     background-position: center bottom;
     background-repeat: no-repeat;
