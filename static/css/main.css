@@ -55,8 +55,8 @@
   height: 80%;
 }
 .container-interests p {
-  text-align: left;
-  /* position: auto; */
+  text-align: right;
+  position: center;
 }
 .w3-row-padding img {margin-bottom: 12px}
 /* Set the width of the sidebar to 120px */
@@ -71,14 +71,14 @@
 
 .grid-container {
   display: grid;
-  grid-template-columns: 150px 200px 150px 200px;
+  grid-template-columns: 150px 250px 150px 250px;
   gap: 10px;
   background-color: #4d7dc0;
   padding: 10px;
   align-content: center;
   justify-content: center;
   position: absolute; 
-  width: 90%;
+  width: 95%;
 }
 
 .grid-container > div {
