@@ -109,14 +109,13 @@
 }
 
 .column-bio-pic{
-  float: left;
-  width: 33.33333%;
-  padding: 20px;
-  position: relative;
-  top: -500px;
-  left: 500px;
-  /* background-color: white;
-  width: 500px; */
+  /* float: right; */
+  width: 50%;
+  height: auto;
+  /* padding: 20px; */
+  position: absolute;/*#relative;*/
+  top: -60px;
+  right: -100px;
 }
 
 .column-66 {
