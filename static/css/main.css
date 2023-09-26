@@ -10,6 +10,7 @@
 
 .topnav a {
   float: left;
+  display: block;
   color: #f2f2f2;
   text-align: center;
   padding: 14px 16px;
@@ -25,6 +26,10 @@
 .topnav a.active {
   background-color: #EED787;
   color: grey;
+}
+
+.topnav .icon {
+  display: none;
 }
 
 .hero-image {
@@ -157,7 +162,7 @@ img {
 
 @media screen and (max-width: 1000px) {
   .column-66,
-  .column-33,.column-bio-text,.column-bio-pic{
+  .column-33,.column-bio-text{
     width: 100%;
     text-align: center;
   }
@@ -169,7 +174,37 @@ img {
     top: -30px;
     right: 20px; 
   }
+  .grid-container,.grid-container div{
+    width: 95%;
+  }
+
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+  .topnav.responsive {
+    /* top: 0; Position the navbar at the top of the page */
+    z-index:1000;
+    overflow: hidden; 
+    position: fixed;
+  }
   
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+    /* background-color: #EED787; */
+    color: grey;
+    padding: 14px 16px;
+    z-index:1000;
+  }
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
 }
 
 
