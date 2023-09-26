@@ -208,6 +208,16 @@ img {
     align-items: center;
     justify-items: center;
   }
+  .hero-image {
+    /* linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), */
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.05)),url("../images/aayush-gupta_Lisbon_Tram.jpg");
+    height: 100%;
+    width: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    position: relative;
+  }
   .w3-orange,.w3-dark-orange,.w3-wide{
     width: 100%;
     height: auto;
@@ -240,15 +250,6 @@ img {
     right: 0;
     top: 0;
   }
-  .hero-image {
-    /* linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), */
-    background-image:  linear-gradient(rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.05)),url("../images/aayush-gupta_Lisbon_Tram.jpg");
-    height: 150%;
-    width: auto;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-  }
+  
 }
 
