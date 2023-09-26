@@ -65,11 +65,9 @@
   position: center;
 }
 /* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
-.w3-padding-16{padding-top:16px!important;padding-bottom:16px!important}
-.w3-wide{letter-spacing:4px;position: auto;}
+.w3-wide{letter-spacing:4px;position: auto;color:#E69C34;}
 .w3-orange{color:#EDAA75!important;background-color:#E3D49F!important}
 .w3-dark-orange{color:#fff!important;background-color:#EDAA75!important}
-.w3-text-light-grey{color:#f1f1f1!important}
 
 .grid-container {
   display: grid;
@@ -201,13 +199,17 @@ img {
     gap: 10px;
     background-color: #4d7dc0;
     padding: 10px;
-    align-content: center;
-    justify-content: center;
+    /* align-content: center;
+    justify-content: center; */
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   }
-
+  .grid-text {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+  }
   .w3-orange,.w3-dark-orange,.w3-wide{
-    width: 60%;
+    width: 100%;
     height: auto;
   }
 
