@@ -36,6 +36,7 @@
   /* linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), */
   background-image:  linear-gradient(rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.05)),url("../images/aayush-gupta_Lisbon_Tram.jpg");
   height: 150%;
+  width: auto;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -63,16 +64,12 @@
   text-align: right;
   position: center;
 }
-.w3-row-padding img {margin-bottom: 12px}
-/* Set the width of the sidebar to 120px */
-.w3-sidebar {width: 120px;background: #222;}
 /* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
 .w3-padding-16{padding-top:16px!important;padding-bottom:16px!important}
 .w3-wide{letter-spacing:4px;position: auto;}
-
-.w3-white,.w3-hover-white:hover{color:#EDAA75!important;background-color:#E3D49F!important}
-.w3-dark-grey,.w3-hover-dark-grey:hover,.w3-dark-gray,.w3-hover-dark-gray:hover{color:#fff!important;background-color:#EDAA75!important}
-.w3-text-light-grey,.w3-hover-text-light-grey:hover,.w3-text-light-gray,.w3-hover-text-light-gray:hover{color:#f1f1f1!important}
+.w3-orange{color:#EDAA75!important;background-color:#E3D49F!important}
+.w3-dark-orange{color:#fff!important;background-color:#EDAA75!important}
+.w3-text-light-grey{color:#f1f1f1!important}
 
 .grid-container {
   display: grid;
@@ -160,6 +157,31 @@ img {
   max-width: 100%;
 }
 
+
+.href:link {
+  color: #5693e9;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.href:visited {
+  color: #e6bf30;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.href:hover {
+  color: #e99351;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.href:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
 @media screen and (max-width: 1000px) {
   .column-66,
   .column-33,.column-bio-text{
@@ -174,8 +196,19 @@ img {
     top: -30px;
     right: 20px; 
   }
-  .grid-container,.grid-container div{
-    width: 95%;
+  .grid-container{
+    width: 90%;
+    gap: 10px;
+    background-color: #4d7dc0;
+    padding: 10px;
+    align-content: center;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+
+  .w3-orange,.w3-dark-orange,.w3-wide{
+    width: 60%;
+    height: auto;
   }
 
   .topnav a:not(:first-child) {display: none;}
@@ -217,27 +250,3 @@ img {
   }
 }
 
-
-.href:link {
-  color: #5693e9;
-  background-color: transparent;
-  text-decoration: none;
-}
-
-.href:visited {
-  color: #e6bf30;
-  background-color: transparent;
-  text-decoration: none;
-}
-
-.href:hover {
-  color: #e99351;
-  background-color: transparent;
-  text-decoration: none;
-}
-
-.href:active {
-  color: yellow;
-  background-color: transparent;
-  text-decoration: underline;
-}
