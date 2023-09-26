@@ -109,8 +109,8 @@
 }
 
 .column-bio-pic{
-  /* float: right; */
-  width: 50%;
+  float: right;
+  width: 40%;
   height: auto;
   /* padding: 20px; */
   position: absolute;/*#relative;*/
@@ -157,13 +157,19 @@ img {
 
 @media screen and (max-width: 1000px) {
   .column-66,
-  .column-33 {
+  .column-33,.column-bio-text,.column-bio-pic{
     width: 100%;
     text-align: center;
   }
-  img {
+  .column-bio-pic {
     margin: auto;
+    width: 20%;
+    height:auto;
+    /* position: relative;*/
+    top: -30px;
+    right: 20px; 
   }
+  
 }
 
 
