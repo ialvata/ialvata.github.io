@@ -15,6 +15,6 @@ function open_nlp(){
     window.open("https://github.com/ialvata/NLP");
 }
 
-function open_app_dev(){
+function open_api_dev(){
     window.open("https://github.com/ialvata/Python-API-Development");
 }
