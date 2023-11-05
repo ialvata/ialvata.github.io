@@ -5,7 +5,12 @@ html {
   background-position: left 0 top 0;
   background-repeat: no-repeat;
   background-size: cover;
+  box-sizing: border-box; /* for box alignment*/
 }
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 body {
   padding: 20px;
 }
