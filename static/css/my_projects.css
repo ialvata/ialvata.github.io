@@ -46,6 +46,7 @@ p {
   margin-bottom: 16px;
   padding: 0 8px;
   height: max-content;
+  display: none;
 }
 
 
@@ -69,6 +70,10 @@ p {
 }
 .dark-background{
   background-color: #333333b3;
+}
+
+.show{
+  display: block;
 }
 
 .topnav {

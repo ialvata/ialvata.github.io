@@ -20,13 +20,24 @@
   <br>
   <br>
   <br>
+  <h1 class="title">Projects</h1>
+  <hr>
+  <br>
+  <div id="myBtnContainer">
+    <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+    <button class="btn" onclick="filterSelection('nlp')"> NLP</button>
+    <button class="btn" onclick="filterSelection('time_series')"> Time Series</button>
+    <button class="btn" onclick="filterSelection('mlops')"> MLOps</button>
+    <button class="btn" onclick="filterSelection('app_dev')"> AppDev</button>
+  </div>
+  <!-- Portfolio Gallery Grid -->
   <div class="row">
-    <div class="column">
+    <div class="column time_series">
       <div class="card dark-background">
         <img src="static/images/time_series.jpg" alt="Time Series" style="width:100%">
         <div class="container">
           <h2>Time Series</h2>
-          <p class="title">In Progress</p>
+          <p class="title">Paused</p>
           <p>
             This is repo contains a simple library for Time Series data problems, 
             which tries to aggregate all steps of the analysis, from data preprocessing, 
@@ -41,7 +52,7 @@
       </div>
     </div>
 
-    <div class="column">
+    <div class="column nlp">
       <div class="card dark-background">
         <img src="static/images/NLP-image.jpg" alt="NLP" style="width:100%">
         <div class="container">
@@ -60,12 +71,12 @@
       </div>
     </div>
 
-    <div class="column">
+    <div class="column app_dev">
       <div class="card dark-background">
         <img src="static/images/python_api_dev.png" alt="APIDev" style="width:100%">
         <div class="container">
           <h2>API Development</h2>
-          <p class="title">In Progress</p>
+          <p class="title">Paused</p>
           <p>
             An interpretation of the Python API Development course from Sanjeev Thiyagarajan.
             I have added several extra integrations (Grafana, Prometheus, etc), and some 
