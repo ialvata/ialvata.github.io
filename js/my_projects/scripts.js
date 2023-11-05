@@ -1,3 +1,4 @@
+
 function top_nav_fill() {
     var x = document.getElementById("myTopnav");
     if (x.className === "topnav") {
@@ -17,6 +18,10 @@ function open_nlp(){
 
 function open_api_dev(){
     window.open("https://github.com/ialvata/Python-API-Development");
+}
+
+function open_mlflow_exploration(){
+  window.open("https://github.com/ialvata/mlflow_exploration");
 }
 
 function filterSelection(c) {
@@ -41,15 +46,16 @@ function filterSelection(c) {
 }
 
 
-
-
-// // Add active class to the current button (highlight it)
-// var btnContainer = document.getElementById("myBtnContainer");
-// var btns = btnContainer.getElementsByClassName("btn");
-// for (var i = 0; i < btns.length; i++) {
-//   btns[i].addEventListener("click", function(){
-//     var current = document.getElementsByClassName("active");
-//     current[0].className = current[0].className.replace(" active", "");
-//     this.className += " active";
-//   });
-// }
+document.addEventListener('DOMContentLoaded', () => {
+  filterSelection("all"); // so that when the page loads, there's no empty space...
+  // Add active class to the current button (highlight it)
+  btnContainer = document.getElementById("myBtnContainer");
+  buttons_gallery = btnContainer.getElementsByClassName("button_gallery");
+  for (let i of buttons_gallery) {
+    i.addEventListener("click", function(event){
+      current = document.getElementsByClassName("button_gallery_active")[0];
+      current.className = current.className.replace(" button_gallery_active", "");
+      event.target.className += " button_gallery_active";
+    });
+  };
+});
