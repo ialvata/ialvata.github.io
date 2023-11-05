@@ -7,7 +7,7 @@ function top_nav_fill() {
       x.className = "topnav";
     }
   }
-
+// All these open_* functions, and their use, need to be refactored
 function open_time_series(){
     window.open("https://github.com/ialvata/Time_Series");
 }
@@ -22,6 +22,10 @@ function open_api_dev(){
 
 function open_mlflow_exploration(){
   window.open("https://github.com/ialvata/mlflow_exploration");
+}
+
+function open_podcast_project(){
+  window.open("https://github.com/ialvata/podcast_project");
 }
 
 function filterSelection(c) {
