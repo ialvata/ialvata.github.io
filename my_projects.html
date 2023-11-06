@@ -32,7 +32,6 @@
   <!-- Portfolio Gallery Grid -->
   <div class="row">
     <div class="column time_series">
-      <div class="card">
         <img class="card_image" src="static/images/time_series.jpg" alt="Time Series">
         <!-- <div class="container"> -->
           <h2>Time Series</h2>
@@ -47,12 +46,9 @@
               Visit Project
             </button>
           </p>
-        <!-- </div> -->
-      </div>
     </div>
 
     <div class="column nlp">
-      <div class="card ">
         <img class="card_image" src="static/images/NLP-image.jpg" alt="NLP">
         <!-- <div class="container"> -->
           <h2>Natural Language Processing</h2>
@@ -66,11 +62,9 @@
               Visit Repo
             </button>
           </p>
-      </div>
     </div>
 
     <div class="column app_dev nlp">
-      <div class="card ">
         <img class="card_image" src="static/images/podcast_project.png" alt="Podcast Project">
         <!-- <div class="container"> -->
           <h2>Podcast Project</h2>
@@ -86,13 +80,9 @@
               Visit Project
             </button>
           </p>
-        <!-- </div> -->
-      </div>
     </div>
-  </div>
 
     <div class="column app_dev">
-      <div class="card ">
         <img class="card_image" src="static/images/python_api_dev.png" alt="APIDev">
         <!-- <div class="container"> -->
           <h2>API Development</h2>
@@ -107,30 +97,24 @@
               Visit Project
             </button>
           </p>
-        <!-- </div> -->
-      </div>
+    </div>
+
+    <div class="column mlops">
+        <img class="card_image" src="static/images/mlflow.jpg" alt="MLOps">
+        <!-- <div class="container"> -->
+          <h2>MLflow Exploration</h2>
+          <p class="title">In Progress</p>
+          <p>
+            This repo contains various notebooks and scripts where I experiment with MLflow regarding
+            experiment tracking, model evaluation, and registry, while using a docker container 
+            emulating MLflow server.
+          </p>
+          <p>
+            <button class="button" onclick="open_mlflow_exploration()" id="NLP">
+              Visit Repo
+            </button>
+          </p>
     </div>
   </div>
-
-  <div class="column mlops">
-    <div class="card ">
-      <img class="card_image" src="static/images/mlflow.jpg" alt="MLOps">
-      <!-- <div class="container"> -->
-        <h2>MLflow Exploration</h2>
-        <p class="title">In Progress</p>
-        <p>
-          This repo contains various notebooks and scripts where I experiment with MLflow regarding
-          experiment tracking, model evaluation, and registry, while using a docker container 
-          emulating MLflow server.
-        </p>
-        <p>
-          <button class="button" onclick="open_mlflow_exploration()" id="NLP">
-            Visit Repo
-          </button>
-        </p>
-      <!-- </div> -->
-    </div>
-  </div>
-
 </body>
 </html>

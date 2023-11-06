@@ -11,9 +11,9 @@ html {
   box-sizing: inherit;
 }
 
-body {
+/* body {
   padding: 20px;
-}
+} */
 
 h2 {
   color: rgba(246,190,0,1);
@@ -60,57 +60,28 @@ p {
 }
 
 .column {
-  float: left;
   width: 30%;
-  margin-bottom: 16px;
-  padding: 0 8px;
-  height: max-content;
+  margin: 8px;
+  padding: 8px;
   display: none;
-}
-
-
-.card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
   background-color: #333333b3;
-  padding: 16px;
-  /* width: 20em; 
-  height: 28em;  */
-  margin: 0 auto;
 }
+
 
 .card_image{
-  height: 50%;
+  height: auto;
   width: 75%;
-  padding-left: 45px;
-  padding-top: 15px;
-}
-
-.container {
-  padding: 16px;
-}
-
-.container::after {
-  content: "";
-  clear: both;
-  display: table;
+  margin-left: 10%;
+  margin-right: auto;
+  /* padding-left: 45px;*/
+  margin-top: 10%; 
 }
 
 
 .row {
-  margin: 10px -16px;
-}
-
-/* Add padding BETWEEN each column */
-.row,
-.row > .column {
-  padding: 8px;
-}
-
-/* Clear floats after rows */ 
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .show{
@@ -155,10 +126,17 @@ p {
   display: none;
 }
 
-/* @media screen and (max-width: 1000px) {
+@media screen and (max-width: 700px) {
   .column {
     width: 100%;
     display: none;
+  }
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .show{
+    display: block;
   }
   .topnav a:not(:nth-child(2)) {display: none;}
   .topnav a.icon {
@@ -185,4 +163,4 @@ p {
     right: 0;
     top: 0;
   }
-} */
+}
