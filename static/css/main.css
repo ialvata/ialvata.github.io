@@ -67,7 +67,7 @@ body{
 
 .container-interests {
   padding: 20px;
-  height: 100%;
+  height: max-content;
 }
 
 .grid-text {
