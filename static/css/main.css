@@ -61,13 +61,13 @@ body{
 }
 
 .container {
-  padding: 64px;
+  padding: 64px 64px 30px 64px;
   height: 80%;
 }
 
 .container-interests {
   padding: 20px;
-  height: 100%;
+  height: max-content;
 }
 
 .grid-text {
@@ -88,9 +88,7 @@ body{
   background-color: #4d7dc0;
   padding: 10px;
   align-content: center;
-  justify-content: center;
-  position: absolute; 
-  width: 95%;
+  justify-content: center; 
 }
 
 .grid-container > div {
@@ -139,6 +137,7 @@ body{
 
 .large-font {
   font-size: 48px;
+  margin: 10px;
 }
 
 .xlarge-font {
@@ -187,6 +186,11 @@ img {
 }
 
 @media screen and (max-width: 1000px) {
+
+  .large-font {
+    margin: 20px;
+  }
+
   .column-66,
   .column-33 {
     width: auto;
@@ -204,7 +208,10 @@ img {
     top: -30px;
     right: 20px; 
   }
-  
+  .container-interests {
+    padding: 40px 20px 20px 20px;
+    height: max-content;
+  }
   .grid-container{
     display: grid;
     width: auto;
