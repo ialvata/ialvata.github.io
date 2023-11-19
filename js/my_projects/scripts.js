@@ -28,6 +28,10 @@ function open_podcast_project(){
   window.open("https://github.com/ialvata/podcast_project");
 }
 
+function open_llms(){
+  window.open("https://github.com/ialvata/LLMs_exploration");
+}
+
 function filterSelection(c) {
   // var x, i;
   x = document.getElementsByClassName("column");
